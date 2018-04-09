@@ -21,13 +21,9 @@ function sayHiToGrandma(string) {
   
   if(string === upper) {
     return "YES INDEED!"
-  }
-  
-  if(string === lower) {
+  } else if (string === lower) {
     return "I can't hear you!"
-  }
-  
-  if(string == 'I love you, Grandma.') {
+  } else {
     return "I love you, too"
   }
   
